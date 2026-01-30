@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "dev": "bun run --watch ./src/main.ts",
+    "dev": "bun run --watch ./src/main.ts start --trace",
     "knip": "knip-bun",
     "lint": "eslint --cache",
     "lint:all": "eslint --cache .",
